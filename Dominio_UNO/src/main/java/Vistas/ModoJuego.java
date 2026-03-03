@@ -35,10 +35,14 @@ public class ModoJuego extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         BtnContinuar = new javax.swing.JButton();
+        labelNombreU = new javax.swing.JLabel();
+        labelAvatar = new javax.swing.JLabel();
+        BtnCancelar = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(242, 239, 225));
         setMaximumSize(new java.awt.Dimension(943, 613));
         setMinimumSize(new java.awt.Dimension(943, 613));
+        setPreferredSize(new java.awt.Dimension(943, 613));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 51));
@@ -68,18 +72,31 @@ public class ModoJuego extends javax.swing.JPanel {
 
         add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 200, 240, 220));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\HP\\Downloads\\UNO_Logo.svg.png")); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 0, 120, 130));
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\HP\\OneDrive\\Documents\\ITSON\\Clases6toSemestre\\Arquitectura de software\\SistemaUNO\\UNO_Equipo5\\Imagenes\\UNO_Logo_pequeño.png")); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 120, 130));
 
         BtnContinuar.setBackground(new java.awt.Color(51, 153, 255));
-        BtnContinuar.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        BtnContinuar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         BtnContinuar.setForeground(new java.awt.Color(255, 255, 255));
         BtnContinuar.setText("Siguiente");
         add(BtnContinuar, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 550, 140, 40));
+
+        labelNombreU.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        add(labelNombreU, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 100, 110, 30));
+
+        labelAvatar.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        add(labelAvatar, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 10, 100, 80));
+
+        BtnCancelar.setBackground(new java.awt.Color(0, 0, 0));
+        BtnCancelar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        BtnCancelar.setForeground(new java.awt.Color(255, 255, 255));
+        BtnCancelar.setText("Cancelar");
+        add(BtnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 550, 130, 40));
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton BtnCancelar;
     private javax.swing.JButton BtnContinuar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -87,10 +104,15 @@ public class ModoJuego extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
+    public javax.swing.JLabel labelAvatar;
+    public javax.swing.JLabel labelNombreU;
     // End of variables declaration//GEN-END:variables
 
     public void listenerBtnContinuar(ActionListener listener){
         BtnContinuar.addActionListener(listener);
+    }
+    public void listenerBtnCancelar(ActionListener listener){
+        BtnCancelar.addActionListener(listener);
     }
 
 }

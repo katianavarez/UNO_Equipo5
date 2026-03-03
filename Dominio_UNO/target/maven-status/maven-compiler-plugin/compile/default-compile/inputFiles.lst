@@ -1,1 +1,22 @@
-C:\Users\katia\OneDrive\Documentos\NetBeansProjects\Dominio_UNO\src\main\java\org\itson\dominio_uno\Dominio_UNO.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\Controles\ControlJugador.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\Controles\ControlMenuPrincipal.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\Controles\ControlModoJuego.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\Controles\ControlPantalla.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\entities\Carta.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\entities\Jugador.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\entities\Mano.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\entities\MazoDescarte.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\entities\MazoRobo.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\entities\Partida.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\entities\Turno.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\enums\Color.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\enums\Direccion.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\enums\EstadoPartida.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\enums\EstadoSala.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\enums\Rol.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\enums\TipoCarta.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\enums\ValorCarta.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\org\itson\dominio_uno\Dominio_UNO.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\Vistas\FramePrincipal.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\Vistas\MenuPrincipal.java
+C:\Users\HP\OneDrive\Documents\ITSON\Clases6toSemestre\Arquitectura de software\SistemaUNO\UNO_Equipo5\Dominio_UNO\src\main\java\Vistas\ModoJuego.java

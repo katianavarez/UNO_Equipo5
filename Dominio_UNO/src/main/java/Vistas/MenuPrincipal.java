@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
  * @author HP
  */
 public class MenuPrincipal extends javax.swing.JPanel {
-
+    private String avatarSeleccionado;
     /**
      * Creates new form MenuPrincipal
      */
@@ -64,15 +64,35 @@ public class MenuPrincipal extends javax.swing.JPanel {
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 270, -1, -1));
 
         avatar4.setText("avatar 4");
+        avatar4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avatar4MouseClicked(evt);
+            }
+        });
         add(avatar4, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 430, 70, 50));
 
         avatar1.setText("avatar 1");
+        avatar1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avatar1MouseClicked(evt);
+            }
+        });
         add(avatar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 430, 70, 50));
 
         avatar2.setText("avatar 2");
+        avatar2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avatar2MouseClicked(evt);
+            }
+        });
         add(avatar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 430, 70, 50));
 
         avatar3.setText("Avatar 3");
+        avatar3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avatar3MouseClicked(evt);
+            }
+        });
         add(avatar3, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 430, 70, 50));
 
         BtnContinuar.setBackground(new java.awt.Color(255, 0, 0));
@@ -84,17 +104,38 @@ public class MenuPrincipal extends javax.swing.JPanel {
 
     private void campoUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_campoUsuarioMouseExited
         // TODO add your handling code here:
+        //agregar bordo gris
 
     }//GEN-LAST:event_campoUsuarioMouseExited
 
+    private void avatar1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avatar1MouseClicked
+        // TODO add your handling code here:
+        setAvatar(avatar1.getText());
+    }//GEN-LAST:event_avatar1MouseClicked
+
+    private void avatar2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avatar2MouseClicked
+        // TODO add your handling code here:
+        setAvatar(avatar2.getText());
+    }//GEN-LAST:event_avatar2MouseClicked
+
+    private void avatar3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avatar3MouseClicked
+        // TODO add your handling code here:
+        setAvatar(avatar3.getText());
+    }//GEN-LAST:event_avatar3MouseClicked
+
+    private void avatar4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avatar4MouseClicked
+        // TODO add your handling code here:
+        setAvatar(avatar4.getText());
+    }//GEN-LAST:event_avatar4MouseClicked
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BtnContinuar;
-    private javax.swing.JLabel avatar1;
-    private javax.swing.JLabel avatar2;
-    private javax.swing.JLabel avatar3;
-    private javax.swing.JLabel avatar4;
-    private javax.swing.JTextField campoUsuario;
+    public javax.swing.JButton BtnContinuar;
+    public javax.swing.JLabel avatar1;
+    public javax.swing.JLabel avatar2;
+    public javax.swing.JLabel avatar3;
+    public javax.swing.JLabel avatar4;
+    public javax.swing.JTextField campoUsuario;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -103,4 +144,15 @@ public class MenuPrincipal extends javax.swing.JPanel {
     public void listenerBtnContinuar(ActionListener listener){
         BtnContinuar.addActionListener(listener);
     }
+    
+    public void setAvatar(String a){
+        this.avatarSeleccionado = a;
+        
+    }
+
+    public String getAvatarSeleccionado() {
+        return avatarSeleccionado;
+    }
+    
+   
 }
